@@ -542,7 +542,7 @@ function ppp_render_fb_share_on_publish_row( $args = array() ) {
  * @param  int    $post_id The post ID being edited
  * @return void
  */
-function ppp_render_fb_share_row( $key, $args = array(), $post_id ) {
+function ppp_render_fb_share_row( $key, $args, $post_id ) {
 	global $post;
 
 	$share_time = ppp_generate_timestamp( $args['date'], $args['time'] );
