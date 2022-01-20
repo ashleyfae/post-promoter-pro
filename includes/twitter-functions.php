@@ -583,7 +583,7 @@ function ppp_render_tweet_share_on_publish_row() {
  * @param  int    $post_id The post ID
  * @return void
  */
-function ppp_render_tweet_row( $key, $args = array(), $post_id ) {
+function ppp_render_tweet_row( $key, $args, $post_id ) {
 	global $post, $has_past_shares;
 
 	if ( ! empty( $args['date'] ) && ! empty( $args['time'] ) ) {
