@@ -263,7 +263,7 @@ if( !class_exists( 'PPP_Facebook' ) ) {
 		 * Getting the the profile image of the connected Facebook user.
 		 *
 		 */
-		public function ppp_fb_get_profile_picture( $args=array(), $user ) {
+		public function ppp_fb_get_profile_picture( $args, $user ) {
 
 			if( isset( $args['type'] ) && !empty( $args['type'] ) ) {
 				$type = $args['type'];
